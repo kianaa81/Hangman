@@ -38,3 +38,8 @@ if guess not in chosen_word:
 
 
 print(f"{' '.join(display)}")
+
+
+if "_" not in display:
+    end_of_game = True
+    print("You win.")
