@@ -16,3 +16,5 @@ display = []
 for _ in range(word_length):
     display += "_"
 
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
