@@ -35,3 +35,6 @@ if guess not in chosen_word:
     if lives == 0:
         end_of_game = True
         print("You lose.")
+
+
+print(f"{' '.join(display)}")
