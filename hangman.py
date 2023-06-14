@@ -11,3 +11,8 @@ from hangman_art import logo
 print(logo)
 
 print(f'Pssst, the solution is {chosen_word}.')
+
+display = []
+for _ in range(word_length):
+    display += "_"
+
